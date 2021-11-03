@@ -19,7 +19,7 @@ Some of the checklists in this doc are for **C4 (🐺)** and some of them are fo
 
 ## ⭐️ Sponsor: Provide contest details
 
-## Introduction
+## 👢 Introduction
 
 Boot Finance is a project focused AMM that aims to let projects control their own liquidity, with the eventual goal of being the primary AMM/DEX for the majority of projects in DeFi.
 
@@ -28,8 +28,8 @@ It’s the thesis of Boot Finance that the current AMM dex landscape with one-si
 
 Boot Finance introduces the novel CustomSwap algorithm that allows projects to more granularly control their price movements, and avoid sudden liquidity shocks. 
 
-## Contracts Information
-### Scope
+## 📄 Contracts
+### 🔍 Scope
 ```
 .
   | - customswap
@@ -53,19 +53,19 @@ The Curve/Swerve code-bases have had multiple audits and hence are excluded from
 
 All emissions are in line with the standard [token emission schedule](https://docs.google.com/spreadsheets/d/16aZznOquMsZnx1nz31RQQ6gtMfxiiSuSrVDA19srbBs/edit#gid=1421541501).
 
-#### Swap.sol [697]
+#### 📄 Swap.sol [697]
 This is the main swap contract from Saddle codebase that relies on Math and Swap Utils libraries. The swap logic has been modified to allow pricing with the use of multiple curves instead of a singular price curve. At a `targetprice` the curve being used switches, this allows flexibility to choose multiple A factors that can be in effect depending on the price. ie use A = X at price < Z, use A = Y at price > Z.
 
-#### AirdropDistribution.sol [611]
+#### 📄 AirdropDistribution.sol [611]
 10% of all $BOOT DAO tokens will be distributed to Swerve Active Governance Participants based on a snapshot taken earlier, this contract handles the distribution of tokens for airdrop eligible participants.
 
-#### InvestorDistribution.sol [218]
+#### 📄 InvestorDistribution.sol [218]
 Boot had a small angel, and then a seed round. The distribution for that allocation is handled by this contract.
 
-#### Vesting.sol [216]
+#### 📄 Vesting.sol [216]
 All boot emissions, regardless of entity are subject to a standard 12-month vesting for 70% of their eligible tokens, ie. LP claims X tokens 30% is instantly transferred out, 70% is locked on their behalf in the vesting contract which can be claimed linearly over the next 12 months.
 
-#### PublicSale.sol [314]
+#### 📄 PublicSale.sol [314]
 TGE for distribution of public allocation based on [Vether](https://www.vetherasset.io). For the first four weeks, only NFT holders can participate in the public TGE.
 
 ---
