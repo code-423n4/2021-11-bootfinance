@@ -26,7 +26,7 @@ Boot Finance is a project focused AMM that aims to let projects control their ow
 As the majority of DeFi infrastructure moves to L2s over the coming months/years, the existing DEX/AMM ecosystem will be disrupted.
 It’s the thesis of Boot Finance that the current AMM dex landscape with one-size fits all solutions cannot persist as projects move to L2s. As gas costs reduce, there is reduced need for massive single source liquidity pools(the main competitive metric right now in DEXes), as arb bots can inexpensively arb the price across multiple liquidity sources. Many projects will want both the advantages of custom AMMs that provide features/parameters that are governed by the project itself, along with the ability to manage their LP positions in traditional DEXes across the entire EVM L2 landscape.
 
-Boot Finance introduces the novel CustomSwap algorithm that allows projects to more granularly control their price movements, and avoid sudden liquidity shocks. 
+Boot Finance introduces the novel [CustomSwap](https://blog.boot.finance/customswap-by-boot-finance-1336f6d63cbd) algorithm that allows projects to more granularly control their price movements, and avoid sudden liquidity shocks. 
 
 ## 📄 Contracts
 ### 🔍 Scope
