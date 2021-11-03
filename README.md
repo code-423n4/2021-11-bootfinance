@@ -19,6 +19,8 @@ Some of the checklists in this doc are for **C4 (🐺)** and some of them are fo
 
 ## ⭐️ Sponsor: Provide contest details
 
+![Boot Logo](https://boot.finance/img/Boot-Logo-Horizontal-Blue.png)
+
 ## 👢 Introduction
 
 Boot Finance is a project focused AMM that aims to let projects control their own liquidity, with the eventual goal of being the primary AMM/DEX for the majority of projects in DeFi.
@@ -71,9 +73,6 @@ TGE for distribution of public allocation based on [Vether](https://www.vetheras
 ---
 
 # ⭐️ Sponsor: Provide marketing details
-
-![Boot Logo]
-(https://boot.finance/img/Boot-Logo-Horizontal-Blue.png)
 
 [Discord](https://discord.gg/hNnvEq3U)
 
