@@ -1,0 +1,14 @@
+node_modules/
+cache/
+*.env
+.DS_Store
+testold/
+.DS_Store
+.DS_Store
+contracts/.DS_Store
+contracts/.DS_Store
+contracts/.DS_Store
+.direnv/
+.envrc
+build
+__pycache__

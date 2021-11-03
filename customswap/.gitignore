@@ -1,0 +1,12 @@
+node_modules/
+cache/
+build/
+typechain/
+artifacts/
+coverage*
+.env
+todo
+.direnv/
+.envrc
+__pycache__
+.DS_Store

@@ -1,0 +1,19 @@
+node_modules
+
+#Hardhat files
+cache/
+build/
+typechain/
+artifacts/
+coverage*
+factories
+
+package-lock.json
+
+.env
+
+todo
+.direnv/
+.envrc
+__pycache__/
+.DS_Store

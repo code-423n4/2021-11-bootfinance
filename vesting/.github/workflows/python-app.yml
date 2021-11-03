@@ -1,0 +1,37 @@
+# This workflow will install Python dependencies, run tests and lint with a single version of Python
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
+
+name: Python application
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+    - name: Set up Node.js 14
+      uses: actions/setup-node@v2
+      with:
+        node-version: 14
+    - name: Install dependencies
+      run: |
+        printf "DEPLOYER_PRIVATE_KEY_RINKEBY=ecb70cced581478aaa6b1cd1535bdb9d\nINFURA_API_KEY=cf87e94fa23a400dbb50c3640ff1553a\nREPORT_GAS=true" >> .env
+        npm install
+        npm install -g ganache-cli
+        python -m pip install --upgrade pip
+        pip install pytest
+        pip install -r requirements.txt
+    - name: Test with brownie
+      run: |
+        brownie test --gas
