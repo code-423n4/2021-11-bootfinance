@@ -21,6 +21,7 @@ Some of the checklists in this doc are for **C4 (🐺)** and some of them are fo
 
 ## Contracts Information:
 ### Tree
+```
 .
   | - customswap
   |  | - contracts                                <Contracts from Saddle codebase; heavily modified and need most attention>                
@@ -36,6 +37,7 @@ Some of the checklists in this doc are for **C4 (🐺)** and some of them are fo
   |  | - contracts                                <Contracts from Vether(vetherasset.io) Code Base; modified to enable NFT-gated TGE>
   |  |  | - PublicSale.sol                        [314]	#TGE Contract - Based on Vether4.sol from VetherAsset codebase
   |  |  | - PublicSaleBatchWithdraw.sol           [40]	#Batch Withdraw - Withdraw tokens for all weeks and days at once
+```
 
 #### Swap.sol [697]
 This is the main swap contract from Saddle codebase that relies on Math and Swap Utils libraries. The swap logic has been modified to allow pricing with the use of multiple curves instead of a singular price curve. At a `targetprice` the curve being used switches, this allows flexibility to choose multiple A factors that can be in effect depending on the price. ie use A = X at price < Z, use A = Y at price > Z.
@@ -83,8 +85,8 @@ TGE for distribution of public allocation based on [Vether](https://www.vetheras
 ---
 
 # Boot Finance contest details
-- $47,500 USDC main award pot
-- $2,500 USDC gas optimization award pot
+- $45,000 USDC main award pot
+- $5,000 USDC gas optimization award pot
 - Join [C4 Discord](https://discord.gg/code4rena) to register
 - Submit findings [using the C4 form](https://code423n4.com/2021-11-boot-finance-contest/submit)
 - [Read our guidelines for more details](https://docs.code4rena.com/roles/wardens)
