@@ -1,9 +1,4 @@
 .
-  | - core-contracts
-  |  | - contracts
-  |  |  | - vy                                    <Contracts from Curve Code Base; modified to remove gauge-voting>
-  |  |  |  | - GaugeController.vy                 [492]	#Gauge Controller - All Pool Gauges are registered here, controls reward distribution
-  |  |  |  | - MainToken.vy                       [381]	#BOOT Token - ERC20 Boot Token with Emissions
   | - customswap
   |  | - contracts                                <Contracts from Saddle Code Base; heavily modified and need most attention>                
   |  |  | - MathUtils.sol                         [47]
