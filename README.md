@@ -2,6 +2,9 @@
 
 This `README.md` contains a set of checklists for our contest collaboration.
 
+
+The `contracts_tree.txt` contains a list of contracts in the scope, their sLOC and a brief one-liner of their function.
+
 Your contest will use two repos: 
 - **a _contest_ repo** (this one), which is used for scoping your contest and for providing information to contestants (wardens)
 - **a _findings_ repo**, where issues are submitted. 
@@ -13,13 +16,6 @@ Some of the checklists in this doc are for **C4 (🐺)** and some of them are fo
 ---
 
 # Contest setup
-
-## 🐺 C4: Set up repos
-- [ ] Create a new private repo named `YYYY-MM-sponsorname` using this repo as a template.
-- [ ] Get GitHub handles from sponsor.
-- [ ] Add sponsor to this private repo with 'maintain' level access.
-- [ ] Send the sponsor contact the url for this repo to follow the instructions below and add contracts here. 
-- [ ] Delete this checklist and wait for sponsor to complete their checklist.
 
 ## ⭐️ Sponsor: Provide contest details
 
@@ -40,13 +36,12 @@ Under "SPONSORS ADD INFO HERE" heading below, include the following:
 
 # ⭐️ Sponsor: Provide marketing details
 
-- [ ] Your logo (URL or add file to this repo - SVG or other vector format preferred)
-- [ ] Your primary Twitter handle
-- [ ] Any other Twitter handles we can/should tag in (e.g. organizers' personal accounts, etc.)
-- [ ] Your Discord URI
-- [ ] Your website
-- [ ] Optional: Do you have any quirks, recurring themes, iconic tweets, community "secret handshake" stuff we could work in? How do your people recognize each other, for example? 
-- [ ] Optional: your logo in Discord emoji format
+https://boot.finance/img/Boot-Logo-Horizontal-Blue.png
+[Discord](https://discord.gg/hNnvEq3U)
+[Twitter](https://twitter.com/bootfinance)
+[Wesbite](https://boot.finance)
+[Telegram](https://t.me/bootfinance)
+[Medium](https://blog.boot.finance/)
 
 ---
 
@@ -76,8 +71,8 @@ Under "SPONSORS ADD INFO HERE" heading below, include the following:
 ---
 
 # Sponsorname contest details
-- TBD main award pot
-- TBD gas optimization award pot
+- $45,000 main award pot
+- $5,000 gas optimization award pot
 - Join [C4 Discord](https://discord.gg/code4rena) to register
 - Submit findings [using the C4 form](https://code423n4.com/YYYY-MM-sponsorName-contest/submit)
 - [Read our guidelines for more details](https://docs.code4rena.com/roles/wardens)
