@@ -36,7 +36,7 @@ Under "SPONSORS ADD INFO HERE" heading below, include the following:
 
 # ⭐️ Sponsor: Provide marketing details
 
-https://boot.finance/img/Boot-Logo-Horizontal-Blue.png
+(https://boot.finance/img/Boot-Logo-Horizontal-Blue.png)
 [Discord](https://discord.gg/hNnvEq3U)
 [Twitter](https://twitter.com/bootfinance)
 [Wesbite](https://boot.finance)
