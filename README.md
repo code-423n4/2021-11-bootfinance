@@ -83,8 +83,8 @@ TGE for distribution of public allocation based on [Vether](https://www.vetheras
 ---
 
 # Boot Finance contest details
-- $45,000 USDC main award pot
-- $5,000 USDC gas optimization award pot
+- $47,500 USDC main award pot
+- $2,500 USDC gas optimization award pot
 - Join [C4 Discord](https://discord.gg/code4rena) to register
 - Submit findings [using the C4 form](https://code423n4.com/2021-11-boot-finance-contest/submit)
 - [Read our guidelines for more details](https://docs.code4rena.com/roles/wardens)
