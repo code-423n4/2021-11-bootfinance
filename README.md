@@ -19,8 +19,17 @@ Some of the checklists in this doc are for **C4 (🐺)** and some of them are fo
 
 ## ⭐️ Sponsor: Provide contest details
 
-## Contracts Information:
-### Tree
+## Introduction
+
+Boot Finance is a project focused AMM that aims to let projects control their own liquidity, with the eventual goal of being the primary AMM/DEX for the majority of projects in DeFi.
+
+As the majority of DeFi infrastructure moves to L2s over the coming months/years, the existing DEX/AMM ecosystem will be disrupted.
+It’s the thesis of Boot Finance that the current AMM dex landscape with one-size fits all solutions cannot persist as projects move to L2s. As gas costs reduce, there is reduced need for massive single source liquidity pools(the main competitive metric right now in DEXes), as arb bots can inexpensively arb the price across multiple liquidity sources. Many projects will want both the advantages of custom AMMs that provide features/parameters that are governed by the project itself, along with the ability to manage their LP positions in traditional DEXes across the entire EVM L2 landscape.
+
+Boot Finance introduces the novel CustomSwap algorithm that allows projects to more granularly control their price movements, and avoid sudden liquidity shocks. 
+
+## Contracts Information
+### Scope
 ```
 .
   | - customswap
@@ -38,6 +47,11 @@ Some of the checklists in this doc are for **C4 (🐺)** and some of them are fo
   |  |  | - PublicSale.sol                        [314]	#TGE Contract - Based on Vether4.sol from VetherAsset codebase
   |  |  | - PublicSaleBatchWithdraw.sol           [40]	#Batch Withdraw - Withdraw tokens for all weeks and days at once
 ```
+The codebase of Boot Finance is a combination of Curve/Swerve/Saddle/Vether codebases, with native pools borrowing from Curve/Swerve, CustomSwap Pools relying on Saddle, and Vether being utilized for TGE.
+
+The Curve/Swerve code-bases have had multiple audits and hence are excluded from the scope of this specific audit, but are included for reference to how the larger set-up works.
+
+All emissions are in line with the standard [token emission schedule](https://docs.google.com/spreadsheets/d/16aZznOquMsZnx1nz31RQQ6gtMfxiiSuSrVDA19srbBs/edit#gid=1421541501).
 
 #### Swap.sol [697]
 This is the main swap contract from Saddle codebase that relies on Math and Swap Utils libraries. The swap logic has been modified to allow pricing with the use of multiple curves instead of a singular price curve. At a `targetprice` the curve being used switches, this allows flexibility to choose multiple A factors that can be in effect depending on the price. ie use A = X at price < Z, use A = Y at price > Z.
