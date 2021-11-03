@@ -62,9 +62,13 @@ TGE for distribution of public allocation based on [Vether](https://www.vetheras
 (https://boot.finance/img/Boot-Logo-Horizontal-Blue.png)
 
 [Discord](https://discord.gg/hNnvEq3U)
+
 [Twitter](https://twitter.com/bootfinance)
+
 [Wesbite](https://boot.finance)
+
 [Telegram](https://t.me/bootfinance)
+
 [Medium](https://blog.boot.finance/)
 
 ---
