@@ -70,6 +70,11 @@ All boot emissions, regardless of entity are subject to a standard 12-month vest
 #### 📄 PublicSale.sol [314]
 TGE for distribution of public allocation based on [Vether](https://www.vetherasset.io). For the first four weeks, only NFT holders can participate in the public TGE.
 
+### 📎 Additional Suppporting Information
+![Overview of Core Contracts](core-contracts/diagrams/Overview.png)
+![Overview of Token Distribution](core-contracts/diagrams/TokenDistribution.png)
+Note: Allocations for distribution contracts are pre-minted and funded to the contract to manage.
+
 ---
 
 # ⭐️ Sponsor: Provide marketing details
