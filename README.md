@@ -7,8 +7,6 @@
 - Starts November 4, 2021 00:00 UTC
 - Ends November 10, 2021 23:59 UTC
 
-![Boot Logo](https://boot.finance/img/Boot-Logo-Horizontal-Blue.png)
-
 ## 👢 Introduction
 
 Boot Finance is a project focused AMM that aims to let projects control their own liquidity, with the eventual goal of being the primary AMM/DEX for the majority of projects in DeFi.
