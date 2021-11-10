@@ -58,7 +58,7 @@ TGE for distribution of public allocation based on [Vether](https://www.vetheras
 
 ### 📎 Additional Suppporting Information
 ![Overview of Core Contracts](core-contracts/diagrams/Overview.png)
-![Overview of Token Distribution](core-contracts/diagrams/TokenDistribution.png)
+![Overview of Token Distribution](core-contracts/diagrams/TokenDistribution.drawio.png)
 Note: Allocations for distribution contracts are pre-minted and funded to the contract to manage.
 
 ---
